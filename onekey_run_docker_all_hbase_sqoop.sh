@@ -10,7 +10,7 @@ echo 'starting add image speed============>'
 sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
-  "registry-mirrors": ["https://qsgib5qm.mirror.aliyuncs.com"]
+  "registry-mirrors": ["https://XXXXXXXXX.mirror.aliyuncs.com"]
 }
 EOF
 sudo systemctl daemon-reload
