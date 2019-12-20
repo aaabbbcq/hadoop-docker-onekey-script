@@ -3,9 +3,11 @@ using onekey script to build hadoop platform in docker. The server is Huawei Clo
 
 step 1 download the script "onekey_run_docker_all_hbase_sqoop.sh"
 
-[root@ecs-5afa-0014 ~]wget https://raw.githubusercontent.com/aaabbbcq/hadoop-docker-onekey-script/master/onekey_run_docker_all_hbase_sqoop.sh
+[root@ecs-5afa-0014 ~]git clone https://github.com/aaabbbcq/hadoop-docker-onekey-script.git
 
 step 2 grant the execute to the script "onekey_run_docker_all_hbase_sqoop.sh"
+
+[root@ecs-5afa-0014 ~]#cd hadoop-docker-onekey-script
 
 [root@ecs-5afa-0014 ~]#chmod 770 onekey_run_docker_all_hbase_sqoop.sh
 
